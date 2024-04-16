@@ -1,13 +1,13 @@
 use <RobotoMono-Medium.ttf>
 
-number=10;
+number=5;
 
 difference() {
     hull() {
-        translate([-50, -10]) circle(r = 10);
-        translate([50, -10]) circle(r = 10);
-        translate([-50, -70]) circle(r = 10);
-        translate([50, -70]) circle(r = 10);
+        translate([-60, -0]) circle(r = 10);
+        translate([60, -0]) circle(r = 10);
+        translate([-60, -80]) circle(r = 10);
+        translate([60, -80]) circle(r = 10);
     }
 
     hull() {
@@ -29,9 +29,9 @@ translate([0, -35]) rotate(180) {
 }
 
 hull() {
-    square([10, 10], center = true);
+    square([20, 20], center = true);
     translate([0, 140]) {
-        circle(r = 5);
+        circle(r = 10);
     }
 }
 
